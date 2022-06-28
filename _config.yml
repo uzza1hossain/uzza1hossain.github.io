@@ -1,0 +1,195 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Uzzal's Blog
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+twitter_username: Uzzal_PyDev
+github_username: uzza1hossain
+minimal_mistakes_skin: default
+minimal_mistakes_skin2: dark
+search: true
+
+# Build settings
+markdown: kramdown
+# remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+# Outputting
+permalink: /blog/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: Asia/Dhaka # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+    - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
+    - jekyll-include-cache
+    - jekyll-archives
+    - jekyll-twitter-plugin
+    - jekyll_include_plugin
+    - jekyll_inline_highlight
+    - jekyll_github_sample
+    - jekyll-giphy
+    # - jekyll-target-blank
+
+author:
+    name: "Uzzal Hossain"
+    avatar: "/assets/images/profile-pic-5.png"
+    bio: "Python/Django Developer. <br> Open Source Lover. <br>Tech Enthusiast."
+    # location: Dhaka/Bangladesh
+    links:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/uzza1hossain/"
+        - label: "Twitter"
+          icon: "fab fa-fw fa-twitter-square"
+          url: "https://twitter.com/Uzzal_PyDev"
+        - label: "Linkedin"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/md-uzzal-hossain-a92098239/"
+
+footer:
+    links:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/uzza1hossain/"
+        - label: "Twitter"
+          icon: "fab fa-fw fa-twitter-square"
+          url: "https://twitter.com/Uzzal_PyDev"
+        - label: "Linkedin"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/md-uzzal-hossain-a92098239/"
+
+defaults:
+    # _posts
+    - scope:
+          path: ""
+          type: posts
+      values:
+          layout: single
+          author_profile: true
+          read_time: true
+          comments: true
+          share: true
+          related: true
+          show_date: true
+          toc: true
+          toc_label: "On this Page"
+        #   toc_icon: "heart"
+          toc_sticky: true
+    # _pages
+    - scope:
+          path: "_pages"
+          type: pages
+      values:
+          layout: single
+          author_profile: true
+    # _projects
+    - scope:
+          path: ""
+          type: projects
+      values:
+          layout: single
+          author_profile: true
+          share: true
+          comments: true
+
+    - scope:
+          path: ""
+          type: tag
+      values:
+          author_profile: true
+          comments: true
+    - scope:
+          path: ""
+          type: category
+      values:
+          comments: true
+          author_profile: true
+# category_archive:
+#     type: liquid
+#     path: /categories/
+# tag_archive:
+#     type: liquid
+#     path: /tags/
+
+repository: uzza1hossain/uzza1hossain.github.io
+
+comments:
+    provider: "giscus"
+    giscus:
+        repo_id: R_kgDOHjutWQ # Shown during giscus setup at https://giscus.app
+        category_name: Announcements # Full text name of the category
+        category_id: DIC_kwDOHjutWc4CP4gp # Shown during giscus setup at https://giscus.app
+        discussion_term: og:title # "pathname" (default), "url", "title", "og:title"
+        reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
+        input_position: top
+        loading: lazy
+        theme: light # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+
+# breadcrumbs: true
+
+category_archive:
+    type: jekyll-archives
+    path: /blog/categories/
+tag_archive:
+    type: jekyll-archives
+    path: /blog/tags/
+jekyll-archives:
+    enabled:
+        - categories
+        - tags
+    layouts:
+        category: archive-taxonomy
+        tag: archive-taxonomy
+    permalinks:
+        category: /blog/categories/:name/
+        tag: /blog/tags/:name/
+
+collections:
+    projects:
+        output: true
+        permalink: /:collection/:title/
+
+after_footer_scripts:
+    - assets/js/clipboard.js
+
+host: 0.0.0.0
+port: 8000
+
+teaser: https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png
+og_image: https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png
