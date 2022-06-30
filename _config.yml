@@ -63,7 +63,6 @@ plugins:
     - jekyll_include_plugin
     - jekyll_inline_highlight
     - jekyll_github_sample
-    - jekyll-giphy
     # - jekyll-target-blank
 
 author:
