@@ -20,13 +20,20 @@ layout: single
 
 -   👨‍💻 All of my projects are available at [Here](https://uzza1hossain.github.io/projects/)
 
--   📝 I checkout my articles on my [Blog](https://uzza1hossain.github.io/blog/)
+-   📝 Checkout my articles on my [Blog](https://uzza1hossain.github.io/blog/)
 
 -   💬 Ask me about **Python, Django**
 
--   📫 How to reach me **example@email.com**
+-   📫 How to reach me [**hello@uzzal.dev**](mailto:hello@uzzal.dev)
 
 -   📄 **Download my resume** <a href="#" class="btn btn--success">Link Text</a>
+<!-- {: .notice--success } -->
+
+![Weekly Wakatime Language Stats](https://raw.githubusercontent.com/uzza1hossain/uzza1hossain/main/images/wakatime_weekly_language_stats.svg "Weekly Wakatime Language Stats")
+<br/>
+
+![Uzzal's GitHub stats](https://github-readme-stats.vercel.app/api?username=uzza1hossain&show_icons=true&count_private=true)
+
 
 <!-- -   📄 Know about my experiences [https://uzza1hossain.github.io/](https://uzza1hossain.github.io/) -->
 

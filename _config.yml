@@ -63,6 +63,7 @@ plugins:
     - jekyll_include_plugin
     - jekyll_inline_highlight
     - jekyll_github_sample
+    # - jekyll-analytics
     # - jekyll-target-blank
 
 author:
@@ -108,7 +109,7 @@ defaults:
           show_date: true
           toc: true
           toc_label: "On this Page"
-        #   toc_icon: "heart"
+          #   toc_icon: "heart"
           toc_sticky: true
     # _pages
     - scope:
@@ -187,8 +188,20 @@ collections:
 after_footer_scripts:
     - assets/js/clipboard.js
 
-host: 0.0.0.0
+# host: 0.0.0.0
 port: 8000
 
 teaser: https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png
 og_image: https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png
+
+google_site_verification: 1O7UqgK7kBtxXrv_TJYqX2Db9ywByuZhzhoMM1CnSgU
+bing_site_verification: 679F7A49870D6A272C5039AE8873E016
+yandex_site_verification: 6d4ac35dbb4fdeaa
+
+# analytics:
+#     provider: "custom"
+
+# jekyll_analytics:
+#     Matomo: # Add, if you want to track with Matomo (former Piwik Analytics)
+#         url: matomo.example.com # Required - url to Matomo installation without trailing /
+#         siteId: "1234" # Required - replace with your Matomo site id (Write id as string)
