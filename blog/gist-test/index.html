@@ -1,0 +1,979 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>gist test - Uzzal’s Blog</title>
+<meta name="description" content="It looks like you just forgot to include">
+
+
+  <meta name="author" content="Uzzal Hossain">
+  
+  <meta property="article:author" content="Uzzal Hossain">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Uzzal's Blog">
+<meta property="og:title" content="gist test">
+<meta property="og:url" content="https://www.uzzal.dev/blog/gist-test/">
+
+
+  <meta property="og:description" content="It looks like you just forgot to include">
+
+
+
+  <meta property="og:image" content="https://www.uzzal.dev/assets/images/page-header-og-image.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2022-06-27T18:12:17+06:00">
+
+
+
+  <meta property="article:modified_time" content="2022-06-27T18:12:17+06:00">
+
+
+
+
+<link rel="canonical" href="https://www.uzzal.dev/blog/gist-test/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://www.uzzal.dev/"
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="1O7UqgK7kBtxXrv_TJYqX2Db9ywByuZhzhoMM1CnSgU" />
+
+
+  <meta name="msvalidate.01" content="679F7A49870D6A272C5039AE8873E016">
+
+
+
+  <meta name="yandex-verification" content="6d4ac35dbb4fdeaa">
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+<link href="/feed.xml"
+  type="application/atom+xml" rel="alternate" title="Uzzal's Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- LATEX -->
+<!-- <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> -->
+
+<script>
+  window.MathJax = {
+    jax: ["input/TeX", "output/CommonHTML"],
+    extensions: ["tex2jax.js", "asciimath2jax.js", "mml2jax.js", "MathMenu.js", "MathZoom.js"],
+    TeX: {
+      extensions: ["AMSmath.js", "AMSsymbols.js", "autoload-all.js"]
+    },
+    displayIndent: 0,
+    tex2jax: {
+      inlineMath: [
+        ['$', '$'],
+        ["\\(", "\\)"]
+      ],
+      processEscapes: true
+    },
+    showMathMenu: false,
+    showProcessingMessages: false,
+    messageStyle: "none",
+    menuSettings: { zoom: "Click" },
+    AuthorInit: function () {
+      MathJax.Hub.Register.StartupHook("End", function () {
+        var timeout = false, // holder for timeout id
+          delay = 250; // delay after event is "complete" to run callback
+        var shrinkMath = function () {
+          var dispFormulas = document.getElementsByClassName("formula");
+          if (dispFormulas) {
+            // caculate relative size of indentation
+            var contentTest = document.getElementsByTagName("body")[0];
+            var nodesWidth = contentTest.offsetWidth;
+            // if you have indentation
+            var mathIndent = MathJax.Hub.config.displayIndent; //assuming px's
+            // var mathIndentValue = mathIndent.substring(0, mathIndent.length - 2);
+            for (var i = 0; i < dispFormulas.length; i++) {
+              var dispFormula = dispFormulas[i];
+              var wrapper = dispFormula.getElementsByClassName("MathJax_Preview")[0].nextSibling;
+              var child = wrapper.firstChild;
+              wrapper.style.transformOrigin = "top-left"; //or top-left if you left-align your equations
+              var oldScale = child.style.transform;
+              var newValue = Math.min(0.80 * dispFormula.offsetWidth / child.offsetWidth, 1.0).toFixed(2);
+              var newScale = "scale(" + newValue + ")";
+              if (!(newScale === oldScale)) {
+                wrapper.style.transform = newScale;
+                // wrapper.style["margin-left"] = Math.pow(newValue, 4) * mathIndentValue + "px";
+                var wrapperStyle = window.getComputedStyle(wrapper);
+                var wrapperHeight = parseFloat(wrapperStyle.height);
+                wrapper.style.height = "" + (wrapperHeight * newValue) + "px";
+                if (newValue === "1.00") {
+                  wrapper.style.cursor = "";
+                  wrapper.style.height = "";
+                }
+                else {
+                  wrapper.style.cursor = "zoom-in";
+                }
+              }
+
+            }
+          }
+        };
+        shrinkMath();
+        window.addEventListener('resize', function () {
+          clearTimeout(timeout);
+          timeout = setTimeout(shrinkMath, delay);
+        });
+      });
+    }
+  };
+
+  (function (d, script) {
+    script = d.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.onload = function () {
+      // remote script has loaded
+    };
+    script.src = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+    d.getElementsByTagName('head')[0].appendChild(script);
+  }(document));
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css" id="theme_source">
+
+<link rel="stylesheet alternate" href="/assets/css/theme2.css" id="theme_source_2">
+<script>
+  let theme = sessionStorage.getItem('theme');
+  if (theme === "dark") {
+    sessionStorage.setItem('theme', 'dark');
+    node1 = document.getElementById('theme_source');
+    node2 = document.getElementById('theme_source_2');
+    node1.setAttribute('rel', 'stylesheet alternate');
+    node2.setAttribute('rel', 'stylesheet');
+  }
+  else {
+    sessionStorage.setItem('theme', 'light');
+  }
+</script>
+
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style"
+  onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+</noscript>
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Uzzal's Blog
+          
+        </a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/blog/categories/">Categories</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/blog/tags/">Tags</a>
+            </li>
+</ul>
+       
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        
+        <!-- fas fa-fw fa-adjust -->
+        <i class="fas fa-fw fa-adjust" aria-hidden="true" onclick="node1=document.getElementById('theme_source');node2=document.getElementById('theme_source_2');if(node1.getAttribute('rel')=='stylesheet'){node1.setAttribute('rel', 'stylesheet alternate'); node2.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'dark');}else{node2.setAttribute('rel', 'stylesheet alternate'); node1.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'light');} return false;"></i>
+      
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/profile-pic-5.png" alt="Uzzal Hossain" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Uzzal Hossain</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Python/Django Developer. <br> Open Source Lover. <br>Tech Enthusiast.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://github.com/uzza1hossain/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/Uzzal_PyDev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/md-uzzal-hossain-a92098239/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="gist test">
+    <meta itemprop="description" content="It looks like you just forgot to include">
+    <meta itemprop="datePublished" content="2022-06-27T18:12:17+06:00">
+    <meta itemprop="dateModified" content="2022-06-27T18:12:17+06:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">gist test
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-06-27T18:12:17+06:00">June 27, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> On this Page</h4></header>
+              
+
+            </nav>
+          </aside>
+        
+        <p>It looks like you just forgot to include</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">random</span></code></pre></figure>
+
+<p>at the top of your file.</p>
+
+<p>It looks like you just forgot to include <code class="highlight language-python" data-lang="python"><span class="kn">from</span> <span class="nn">random</span>
+<span class="kn">import</span> <span class="n">random</span></code> at the top of your file.</p>
+
+<p>What is Lorem Ipsum?</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">python</span> <span class="n">manage</span><span class="p">.</span><span class="n">py</span> <span class="n">runserver</span></code></pre></figure>
+
+<p>I give this plugin two <img class="emoji" title=":+1:" alt=":+1:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20">!
+<img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20">
+🚣</p>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="c1">// File automatically generated by Parser/asdl_c.py.</span>
+
+<span class="cp">#include "Python.h"
+#include "pycore_ast.h"
+#include "pycore_ast_state.h"     // struct ast_state
+#include "pycore_ceval.h"         // _Py_EnterRecursiveCall
+#include "pycore_interp.h"        // _PyInterpreterState.ast
+#include "pycore_pystate.h"       // _PyInterpreterState_GET()
+#include "structmember.h"
+#include &lt;stddef.h&gt;
+</span>
+<span class="c1">// Forward declaration</span>
+<span class="k">static</span> <span class="kt">int</span> <span class="nf">init_types</span><span class="p">(</span><span class="k">struct</span> <span class="n">ast_state</span> <span class="o">*</span><span class="n">state</span><span class="p">);</span>
+
+<span class="k">static</span> <span class="k">struct</span> <span class="n">ast_state</span><span class="o">*</span></code></pre></figure>
+
+<!-- <p align="center">
+    <img width="300" src="static/FigBanner.png#gh-light-mode-only"/>
+    <img width="300" src="static/FigBannerInverted.png#gh-dark-mode-only"/>
+</p>
+
+---
+
+[Fig](https://fig.io?ref=github_fig) is reimagining the terminal, starting with [autocomplete](https://github.com/withfig/autocomplete). ✨
+
+![Fig Visual Autocomplete For Your Terminal Demo](https://fig.io/gifs/demo-with-header.gif)
+
+
+## ⚡️ Installation
+##### With [Homebrew](https://brew.sh): 
+```
+brew install --cask fig
+```
+##### Manually: 
+Download the macOS app at [fig.io/download](https://fig.io/download).
+
+
+## Repositories
+
+Use this (withfig/fig) repository to submit new issues and have discussions.
+
+- [withfig/autocomplete](https://github.com/withfig/autocomplete): Collection of all specs for [autocomplete](https://fig.io/docs). Contribute new specs and update old specs here.
+
+## Known Issues
+
+For details about conflicts between Fig and other tools that must be fixed upstream, see [KNOWN-ISSUES.md](KNOWN-ISSUES.md)
+
+## Contributing
+
+To learn more about how to contribute, see [CONTRIBUTING.md](CONTRIBUTING.md)
+
+
+You can start building [autocomplete specs](https://github.com/withfig/autocomplete) for yourself, your team, and the community today.
+
+
+## Docs
+
+Our docs are available at [fig.io/docs](https://fig.io/docs).
+
+
+## Issues, Bugs & Feature Requests
+
+[Create a new issue](https://github.com/withfig/fig/issues/new/choose) in this (withfig/fig) repo. If needed, our issue templates will then redirect you to the right place.
+
+
+Most issues are made in this repo. Only create issues in other repos for the following:
+
+- [withfig/autocomplete](https://github.com/withfig/autocomplete): Issues with specific completion specs (e.g. git, aws...) or the completion spec standard (e.g. the standard doesn't work with this specific type of CLI argument)
+- [withfig/config](https://github.com/withfig/config): Issues with Fig's installation and update scripts (e.g. perhaps the Fig CLI is not being added to your $PATH because of a custom set up or shell)
+
+Again, start [here](https://github.com/withfig/fig/issues/new/choose) and then we will redirect you accordingly.
+
+
+
+## Support and Questions
+
+1. Check out our support guide: [fig.io/support](https://fig.io/support)
+
+2. Join the [Fig Community Discord](https://fig.io/community) to discuss with others and get immediate support from the Fig team
+
+<p align="center">
+<a href="https://fig.io/community">
+    <img src="http://fig.io/icons/discord-logo-square.png" width="80px" height="80px" />
+</a>
+</p>
+
+
+1. Read through the [support guide](https://fig.io/support) in the docs
+
+2. Look through [past issues](https://github.com/withfig/fig/issues) in this repo or create an issue [here](https://github.com/withfig/fig/issues/new/choose)
+
+For any unanswered questions or other inquiries, feel free to email us any time: [hello@fig.io](mailto:hello@fig.io) -->
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<div class="jekyll-twitter-plugin">
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Anytime I do research on data exported from vendors, <a href="https://twitter.com/simonw?ref_src=twsrc%5Etfw">@simonw</a>'s datasette is the first tool I reach for. From there I figure out what other tools to consider.<a href="https://t.co/iXT4CcHH1t">https://t.co/iXT4CcHH1t</a><br><br>Yes, this is my periodic thank you to Simon for this amazing tool and ecosystem.<br><br>🐍 🙂</p>— Daniel Roy Greenfeld (@pydanny) <a href="https://twitter.com/pydanny/status/1541419744053583872?ref_src=twsrc%5Etfw">June 27, 2022</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<p>Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+<script src="https://gist.github.com/b9b7b830f29f11f187deed7ab0dcc0ae.js"> </script>
+
+<p>Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.</p>
+
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/blog/tags/code-highlighting" class="page__taxonomy-item" rel="tag">code-highlighting</a><span class="sep">, </span>
+    
+      <a href="/blog/tags/gist" class="page__taxonomy-item" rel="tag">gist</a><span class="sep">, </span>
+    
+      <a href="/blog/tags/plugins" class="page__taxonomy-item" rel="tag">plugins</a><span class="sep">, </span>
+    
+      <a href="/blog/tags/twitter" class="page__taxonomy-item" rel="tag">twitter</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/blog/categories/github" class="page__taxonomy-item" rel="tag">github</a><span class="sep">, </span>
+    
+      <a href="/blog/categories/jekyll" class="page__taxonomy-item" rel="tag">jekyll</a><span class="sep">, </span>
+    
+      <a href="/blog/categories/test" class="page__taxonomy-item" rel="tag">test</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-06-27">June 27, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=gist+test%20https%3A%2F%2Fwww.uzzal.dev%2Fblog%2Fgist-test%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.uzzal.dev%2Fblog%2Fgist-test%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.uzzal.dev%2Fblog%2Fgist-test%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/new-tag-testing/" class="pagination--pager" title="new tag testing
+">Previous</a>
+    
+    
+      <a href="/blog/on-this-page-testing/" class="pagination--pager" title="On this page testing
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section id="giscus-comments"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/Sample-testing/" rel="permalink">Sample testing
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-06-30T23:15:42+06:00">June 30, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/on-this-page-testing/" rel="permalink">On this page testing
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-06-28T00:00:00+06:00">June 28, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Lorem Ipsum
+“Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit…”
+“There is no one who loves pain itself, who seeks ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/new-tag-testing/" rel="permalink">new tag testing
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-06-27T00:00:00+06:00">June 27, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This is body
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/this-is-a-title/" rel="permalink">This is a title
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-06-26T00:00:00+06:00">June 26, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">What is Lorem Ipsum?
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/uzza1hossain/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/Uzzal_PyDev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/md-uzzal-hossain-a92098239/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2022 Uzzal's Blog. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <script>
+  'use strict';
+
+  (function () {
+    var commentContainer = document.querySelector('#giscus-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://giscus.app/client.js');
+    script.setAttribute('data-repo', 'uzza1hossain/uzza1hossain.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOHjutWQ');
+    script.setAttribute('data-category', 'Announcements');
+    script.setAttribute('data-category-id', 'DIC_kwDOHjutWc4CP4gp');
+    script.setAttribute('data-mapping', 'og:title');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-theme', 'light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+  
+
+
+
+  
+    <script src="/assets/js/clipboard.js"></script>
+  
+
+
+
+  </body>
+</html>

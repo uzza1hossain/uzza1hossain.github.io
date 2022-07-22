@@ -1,0 +1,566 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Uzzal's Blog</title>
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+
+  <meta name="author" content="Uzzal Hossain">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Uzzal's Blog">
+<meta property="og:title" content="Uzzal’s Blog">
+<meta property="og:url" content="https://www.uzzal.dev/">
+
+
+  <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+
+
+  <meta property="og:image" content="https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png">
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://www.uzzal.dev/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://www.uzzal.dev/"
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="1O7UqgK7kBtxXrv_TJYqX2Db9ywByuZhzhoMM1CnSgU" />
+
+
+  <meta name="msvalidate.01" content="679F7A49870D6A272C5039AE8873E016">
+
+
+
+  <meta name="yandex-verification" content="6d4ac35dbb4fdeaa">
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+<link href="/feed.xml"
+  type="application/atom+xml" rel="alternate" title="Uzzal's Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- LATEX -->
+<!-- <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> -->
+
+<script>
+  window.MathJax = {
+    jax: ["input/TeX", "output/CommonHTML"],
+    extensions: ["tex2jax.js", "asciimath2jax.js", "mml2jax.js", "MathMenu.js", "MathZoom.js"],
+    TeX: {
+      extensions: ["AMSmath.js", "AMSsymbols.js", "autoload-all.js"]
+    },
+    displayIndent: 0,
+    tex2jax: {
+      inlineMath: [
+        ['$', '$'],
+        ["\\(", "\\)"]
+      ],
+      processEscapes: true
+    },
+    showMathMenu: false,
+    showProcessingMessages: false,
+    messageStyle: "none",
+    menuSettings: { zoom: "Click" },
+    AuthorInit: function () {
+      MathJax.Hub.Register.StartupHook("End", function () {
+        var timeout = false, // holder for timeout id
+          delay = 250; // delay after event is "complete" to run callback
+        var shrinkMath = function () {
+          var dispFormulas = document.getElementsByClassName("formula");
+          if (dispFormulas) {
+            // caculate relative size of indentation
+            var contentTest = document.getElementsByTagName("body")[0];
+            var nodesWidth = contentTest.offsetWidth;
+            // if you have indentation
+            var mathIndent = MathJax.Hub.config.displayIndent; //assuming px's
+            // var mathIndentValue = mathIndent.substring(0, mathIndent.length - 2);
+            for (var i = 0; i < dispFormulas.length; i++) {
+              var dispFormula = dispFormulas[i];
+              var wrapper = dispFormula.getElementsByClassName("MathJax_Preview")[0].nextSibling;
+              var child = wrapper.firstChild;
+              wrapper.style.transformOrigin = "top-left"; //or top-left if you left-align your equations
+              var oldScale = child.style.transform;
+              var newValue = Math.min(0.80 * dispFormula.offsetWidth / child.offsetWidth, 1.0).toFixed(2);
+              var newScale = "scale(" + newValue + ")";
+              if (!(newScale === oldScale)) {
+                wrapper.style.transform = newScale;
+                // wrapper.style["margin-left"] = Math.pow(newValue, 4) * mathIndentValue + "px";
+                var wrapperStyle = window.getComputedStyle(wrapper);
+                var wrapperHeight = parseFloat(wrapperStyle.height);
+                wrapper.style.height = "" + (wrapperHeight * newValue) + "px";
+                if (newValue === "1.00") {
+                  wrapper.style.cursor = "";
+                  wrapper.style.height = "";
+                }
+                else {
+                  wrapper.style.cursor = "zoom-in";
+                }
+              }
+
+            }
+          }
+        };
+        shrinkMath();
+        window.addEventListener('resize', function () {
+          clearTimeout(timeout);
+          timeout = setTimeout(shrinkMath, delay);
+        });
+      });
+    }
+  };
+
+  (function (d, script) {
+    script = d.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.onload = function () {
+      // remote script has loaded
+    };
+    script.src = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+    d.getElementsByTagName('head')[0].appendChild(script);
+  }(document));
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css" id="theme_source">
+
+<link rel="stylesheet alternate" href="/assets/css/theme2.css" id="theme_source_2">
+<script>
+  let theme = sessionStorage.getItem('theme');
+  if (theme === "dark") {
+    sessionStorage.setItem('theme', 'dark');
+    node1 = document.getElementById('theme_source');
+    node2 = document.getElementById('theme_source_2');
+    node1.setAttribute('rel', 'stylesheet alternate');
+    node2.setAttribute('rel', 'stylesheet');
+  }
+  else {
+    sessionStorage.setItem('theme', 'light');
+  }
+</script>
+
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style"
+  onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+</noscript>
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Uzzal's Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/tags/">Tags</a>
+            </li></ul>
+       
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        
+        <!-- fas fa-fw fa-adjust -->
+        <i class="fas fa-fw fa-adjust" aria-hidden="true" onclick="node1=document.getElementById('theme_source');node2=document.getElementById('theme_source_2');if(node1.getAttribute('rel')=='stylesheet'){node1.setAttribute('rel', 'stylesheet alternate'); node2.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'dark');}else{node2.setAttribute('rel', 'stylesheet alternate'); node1.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'light');} return false;"></i>
+      
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/profile-pic-5.png" alt="Uzzal Hossain" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Uzzal Hossain</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Python/Django Developer. <br /> Open Source Lover. <br />Tech Enthusiast.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://github.com/uzza1hossain/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/Uzzal_PyDev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/md-uzzal-hossain-a92098239/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <!-- <div align="center">
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+</div> -->
+
+<!-- <h1 align="center">Hi 👋, I'm Uzzal Hossain</h1>
+<h3 align="center">A passionate Python/Django developer from Bangladesh</h3> -->
+
+<ul>
+  <li>
+    <p>🔭 I’m currently working on <strong>a multi-vendor E-commerce web app</strong></p>
+  </li>
+  <li>
+    <p>🌱 I’m currently learning <strong>HTMX</strong></p>
+  </li>
+  <li>
+    <p>👯 I’m looking to collaborate on <strong>any Django related project</strong></p>
+  </li>
+  <li>
+    <p>👨‍💻 All of my projects are available at <a href="https://uzza1hossain.github.io/projects/">Here</a></p>
+  </li>
+  <li>
+    <p>📝 Checkout my articles on my <a href="https://uzza1hossain.github.io/blog/">Blog</a></p>
+  </li>
+  <li>
+    <p>💬 Ask me about <strong>Python, Django</strong></p>
+  </li>
+  <li>
+    <p>📫 How to reach me <a href="mailto:hello@uzzal.dev"><strong>hello@uzzal.dev</strong></a></p>
+  </li>
+  <li>
+    <p>📄 <strong>Download my resume</strong> <a href="#" class="btn btn--success">Link Text</a>
+<!-- {: .notice--success } --></p>
+  </li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/uzza1hossain/uzza1hossain/main/images/wakatime_weekly_language_stats.svg" alt="Weekly Wakatime Language Stats" title="Weekly Wakatime Language Stats" />
+<br /></p>
+
+<p><img src="https://github-readme-stats.vercel.app/api?username=uzza1hossain&amp;show_icons=true&amp;count_private=true" alt="Uzzal's GitHub stats" /></p>
+
+<!-- -   📄 Know about my experiences [https://uzza1hossain.github.io/](https://uzza1hossain.github.io/) -->
+
+<p><!--STARTS_HERE_QUOTE_README-->
+<!-- -   ⚡ Fun fact <i>❝Konrad Zuse is the inventor of the first programmable computer in the world. He did it in 1936 and named the computer as Z1. Konrad Zuse❞</i> -->
+<!--ENDS_HERE_QUOTE_README--></p>
+
+<!-- # Blog posts -->
+
+<!-- BLOG-POST-LIST:START -->
+<!-- - [Welcome to Jekyll!](https://uzza1hossain.github.io/blog/welcome-to-jekyll/)
+- [Post: Link](https://uzza1hossain.github.io/blog/post-link/)
+- [Post: Notice](https://uzza1hossain.github.io/blog/post-notice/)
+- [Post: Quote](https://uzza1hossain.github.io/blog/post-quote/)
+- [Post: Chat](https://uzza1hossain.github.io/blog/post-chat/) -->
+<!-- BLOG-POST-LIST:END -->
+
+<!-- <h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/uzzal_pydev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="uzzal_pydev" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/md-uzzal-hossain-a92098239" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="md-uzzal-hossain-a92098239" height="30" width="40" /></a>
+<a href="/https://uzza1hossain.github.io/feed.xml" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://uzza1hossain.github.io/feed.xml" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+<br/>
+
+![Weekly Wakatime Language Stats](https://github.com/uzza1hossain/uzza1hossain/blob/main/images/wakatime_weekly_language_stats.svg "Weekly Wakatime Language Stats")
+
+![Uzzal's GitHub stats](https://github-readme-stats.vercel.app/api?username=uzza1hossain&show_icons=true&count_private=true)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=uzza1hossain&layout=compact)](https://github.com/uzza1hossain)
+
+![GitHub Snake Light](https://github.com/uzza1hossain/uzza1hossain/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![GitHub Snake dark](https://github.com/uzza1hossain/uzza1hossain/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only) -->
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/uzza1hossain/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/Uzzal_PyDev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/md-uzzal-hossain-a92098239/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Uzzal's Blog. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+  
+    <script src="/assets/js/clipboard.js"></script>
+  
+
+
+
+  </body>
+</html>

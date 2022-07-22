@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://www.uzzal.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.uzzal.dev/" rel="alternate" type="text/html" /><updated>2022-07-22T20:07:14+06:00</updated><id>https://www.uzzal.dev/feed.xml</id><title type="html">Uzzal’s Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Uzzal Hossain</name></author><entry><title type="html">Sample testing</title><link href="https://www.uzzal.dev/blog/Sample-testing/" rel="alternate" type="text/html" title="Sample testing" /><published>2022-06-30T23:15:42+06:00</published><updated>2022-06-30T23:15:42+06:00</updated><id>https://www.uzzal.dev/blog/Sample-testing</id><content type="html" xml:base="https://www.uzzal.dev/blog/Sample-testing/"></content><author><name>Uzzal Hossain</name></author><summary type="html"></summary></entry><entry><title type="html">On this page testing</title><link href="https://www.uzzal.dev/blog/on-this-page-testing/" rel="alternate" type="text/html" title="On this page testing" /><published>2022-06-28T00:00:00+06:00</published><updated>2022-06-28T00:00:00+06:00</updated><id>https://www.uzzal.dev/blog/on-this-page-testing</id><content type="html" xml:base="https://www.uzzal.dev/blog/on-this-page-testing/">&lt;h1 id=&quot;lorem-ipsum&quot;&gt;Lorem Ipsum&lt;/h1&gt;
+&lt;p&gt;“Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit…”
+“There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain…”&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-lorem-ipsum&quot;&gt;What is Lorem Ipsum?&lt;/h2&gt;
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-do-we-use-it&quot;&gt;Why do we use it?&lt;/h2&gt;
+&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
+
+&lt;h3 id=&quot;benefits&quot;&gt;Benefits&lt;/h3&gt;
+&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.&lt;/p&gt;
+
+&lt;h3 id=&quot;usages&quot;&gt;Usages&lt;/h3&gt;
+&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.&lt;/p&gt;
+
+&lt;h2 id=&quot;where-does-it-come-from&quot;&gt;Where does it come from?&lt;/h2&gt;
+&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;</content><author><name>Uzzal Hossain</name></author><summary type="html">Lorem Ipsum “Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit…” “There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain…”</summary></entry><entry><title type="html">gist test</title><link href="https://www.uzzal.dev/blog/gist-test/" rel="alternate" type="text/html" title="gist test" /><published>2022-06-27T18:12:17+06:00</published><updated>2022-06-27T18:12:17+06:00</updated><id>https://www.uzzal.dev/blog/gist-test</id><content type="html" xml:base="https://www.uzzal.dev/blog/gist-test/">&lt;p&gt;It looks like you just forgot to include&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;at the top of your file.&lt;/p&gt;
+
+&lt;p&gt;It looks like you just forgot to include &lt;code class=&quot;highlight language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;/code&gt; at the top of your file.&lt;/p&gt;
+
+&lt;p&gt;What is Lorem Ipsum?&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;manage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;runserver&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;I give this plugin two :+1:!
+:bulb:
+🚣&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// File automatically generated by Parser/asdl_c.py.&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#include &quot;Python.h&quot;
+#include &quot;pycore_ast.h&quot;
+#include &quot;pycore_ast_state.h&quot;     // struct ast_state
+#include &quot;pycore_ceval.h&quot;         // _Py_EnterRecursiveCall
+#include &quot;pycore_interp.h&quot;        // _PyInterpreterState.ast
+#include &quot;pycore_pystate.h&quot;       // _PyInterpreterState_GET()
+#include &quot;structmember.h&quot;
+#include &amp;lt;stddef.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Forward declaration&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;init_types&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ast_state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ast_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;!-- &lt;p align=&quot;center&quot;&gt;
+    &lt;img width=&quot;300&quot; src=&quot;static/FigBanner.png#gh-light-mode-only&quot;/&gt;
+    &lt;img width=&quot;300&quot; src=&quot;static/FigBannerInverted.png#gh-dark-mode-only&quot;/&gt;
+&lt;/p&gt;
+
+---
+
+[Fig](https://fig.io?ref=github_fig) is reimagining the terminal, starting with [autocomplete](https://github.com/withfig/autocomplete). ✨
+
+![Fig Visual Autocomplete For Your Terminal Demo](https://fig.io/gifs/demo-with-header.gif)
+
+
+## ⚡️ Installation
+##### With [Homebrew](https://brew.sh): 
+```
+brew install --cask fig
+```
+##### Manually: 
+Download the macOS app at [fig.io/download](https://fig.io/download).
+
+
+## Repositories
+
+Use this (withfig/fig) repository to submit new issues and have discussions.
+
+- [withfig/autocomplete](https://github.com/withfig/autocomplete): Collection of all specs for [autocomplete](https://fig.io/docs). Contribute new specs and update old specs here.
+
+## Known Issues
+
+For details about conflicts between Fig and other tools that must be fixed upstream, see [KNOWN-ISSUES.md](KNOWN-ISSUES.md)
+
+## Contributing
+
+To learn more about how to contribute, see [CONTRIBUTING.md](CONTRIBUTING.md)
+
+
+You can start building [autocomplete specs](https://github.com/withfig/autocomplete) for yourself, your team, and the community today.
+
+
+## Docs
+
+Our docs are available at [fig.io/docs](https://fig.io/docs).
+
+
+## Issues, Bugs &amp; Feature Requests
+
+[Create a new issue](https://github.com/withfig/fig/issues/new/choose) in this (withfig/fig) repo. If needed, our issue templates will then redirect you to the right place.
+
+
+Most issues are made in this repo. Only create issues in other repos for the following:
+
+- [withfig/autocomplete](https://github.com/withfig/autocomplete): Issues with specific completion specs (e.g. git, aws...) or the completion spec standard (e.g. the standard doesn't work with this specific type of CLI argument)
+- [withfig/config](https://github.com/withfig/config): Issues with Fig's installation and update scripts (e.g. perhaps the Fig CLI is not being added to your $PATH because of a custom set up or shell)
+
+Again, start [here](https://github.com/withfig/fig/issues/new/choose) and then we will redirect you accordingly.
+
+
+
+## Support and Questions
+
+1. Check out our support guide: [fig.io/support](https://fig.io/support)
+
+2. Join the [Fig Community Discord](https://fig.io/community) to discuss with others and get immediate support from the Fig team
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;a href=&quot;https://fig.io/community&quot;&gt;
+    &lt;img src=&quot;http://fig.io/icons/discord-logo-square.png&quot; width=&quot;80px&quot; height=&quot;80px&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+
+1. Read through the [support guide](https://fig.io/support) in the docs
+
+2. Look through [past issues](https://github.com/withfig/fig/issues) in this repo or create an issue [here](https://github.com/withfig/fig/issues/new/choose)
+
+For any unanswered questions or other inquiries, feel free to email us any time: [hello@fig.io](mailto:hello@fig.io) --&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Anytime I do research on data exported from vendors, &lt;a href=&quot;https://twitter.com/simonw?ref_src=twsrc%5Etfw&quot;&gt;@simonw&lt;/a&gt;&amp;#39;s datasette is the first tool I reach for. From there I figure out what other tools to consider.&lt;a href=&quot;https://t.co/iXT4CcHH1t&quot;&gt;https://t.co/iXT4CcHH1t&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Yes, this is my periodic thank you to Simon for this amazing tool and ecosystem.&lt;br /&gt;&lt;br /&gt;🐍 🙂&lt;/p&gt;&amp;mdash; Daniel Roy Greenfeld (@pydanny) &lt;a href=&quot;https://twitter.com/pydanny/status/1541419744053583872?ref_src=twsrc%5Etfw&quot;&gt;June 27, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/b9b7b830f29f11f187deed7ab0dcc0ae.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;</content><author><name>Uzzal Hossain</name></author><category term="github" /><category term="test" /><category term="jekyll" /><category term="plugins" /><category term="gist" /><category term="twitter" /><category term="code-highlighting" /><summary type="html">It looks like you just forgot to include</summary></entry><entry><title type="html">new tag testing</title><link href="https://www.uzzal.dev/blog/new-tag-testing/" rel="alternate" type="text/html" title="new tag testing" /><published>2022-06-27T00:00:00+06:00</published><updated>2022-06-27T00:00:00+06:00</updated><id>https://www.uzzal.dev/blog/new-tag-testing</id><content type="html" xml:base="https://www.uzzal.dev/blog/new-tag-testing/">&lt;p&gt;This is body&lt;/p&gt;</content><author><name>Uzzal Hossain</name></author><category term="testing" /><category term="tag-testing" /><summary type="html">This is body</summary></entry><entry><title type="html">This is a title for tag</title><link href="https://www.uzzal.dev/blog/this-is-a-title-for-tag/" rel="alternate" type="text/html" title="This is a title for tag" /><published>2022-06-26T00:00:00+06:00</published><updated>2022-06-26T00:00:00+06:00</updated><id>https://www.uzzal.dev/blog/this-is-a-title-for-tag</id><content type="html" xml:base="https://www.uzzal.dev/blog/this-is-a-title-for-tag/">&lt;p&gt;Where can I get some?
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&lt;/p&gt;</content><author><name>Uzzal Hossain</name></author><category term="admin-testing" /><category term="jekyll" /><category term="jekyll-admin" /><summary type="html">Where can I get some? There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</summary></entry><entry><title type="html">This is a title</title><link href="https://www.uzzal.dev/blog/this-is-a-title/" rel="alternate" type="text/html" title="This is a title" /><published>2022-06-26T00:00:00+06:00</published><updated>2022-06-26T00:00:00+06:00</updated><id>https://www.uzzal.dev/blog/this-is-a-title</id><content type="html" xml:base="https://www.uzzal.dev/blog/this-is-a-title/">&lt;h1 id=&quot;what-is-lorem-ipsum&quot;&gt;What is Lorem Ipsum?&lt;/h1&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of &lt;a href=&quot;https://www.lipsum.com/&quot;&gt;Lorem Ipsum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why do we use it?&lt;/strong&gt;
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Where does it come from?&lt;/em&gt;
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.&lt;/p&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1655987161943-2beb5c9fa4cc?ixlib=rb-1.2.1&amp;amp;ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=500&amp;amp;q=60&quot; alt=&quot;This is a Image&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;li&gt;list item 2
+    &lt;ul&gt;
+      &lt;li&gt;sub list item 1&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;list item 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;li&gt;list item 2
+    &lt;ol&gt;
+      &lt;li&gt;sub list 1&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;list item 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Column 1&lt;/th&gt;
+      &lt;th&gt;Column 2&lt;/th&gt;
+      &lt;th&gt;Column 3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tree-7040298__340.jpg&quot; alt=&quot;asset&quot; /&gt;&lt;/p&gt;</content><author><name>Uzzal Hossain</name></author><summary type="html">What is Lorem Ipsum?</summary></entry><entry><title type="html">Post: Link</title><link href="https://www.uzzal.dev/blog/post-link/" rel="alternate" type="text/html" title="Post: Link" /><published>2022-03-07T00:00:00+06:00</published><updated>2022-03-07T00:00:00+06:00</updated><id>https://www.uzzal.dev/blog/post-link</id><content type="html" xml:base="https://www.uzzal.dev/blog/post-link/">&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And this is how a quote looks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some &lt;a href=&quot;#&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;</content><author><name>Uzzal Hossain</name></author><category term="cat" /><category term="link" /><category term="Post Formats" /><summary type="html">This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://www.uzzal.dev/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-04-18T00:00:00+06:00</published><updated>2019-04-18T00:00:00+06:00</updated><id>https://www.uzzal.dev/blog/welcome-to-jekyll</id><content type="html" xml:base="https://www.uzzal.dev/blog/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from random import choice
+print(choice([1,5,7,8,3,45,5,]))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;choice&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;choice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,]))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Uzzal Hossain</name></author><category term="test" /><category term=" editor" /><category term="Jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Post: Notice</title><link href="https://www.uzzal.dev/blog/post-notice/" rel="alternate" type="text/html" title="Post: Notice" /><published>2010-02-05T00:00:00+06:00</published><updated>2010-02-05T00:00:00+06:00</updated><id>https://www.uzzal.dev/blog/post-notice</id><content type="html" xml:base="https://www.uzzal.dev/blog/post-notice/">&lt;p&gt;A notice displays information that explains nearby content. Often used to call attention to a particular detail.&lt;/p&gt;
+
+&lt;p&gt;When using Kramdown &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; can be added after a sentence to assign the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.notice&lt;/code&gt; to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Changes in Service:&lt;/strong&gt; We just updated our &lt;a href=&quot;#&quot;&gt;privacy policy&lt;/a&gt; here to better service our customers. We recommend reviewing the changes.&lt;/p&gt;
+
+&lt;p class=&quot;notice--primary&quot;&gt;&lt;strong&gt;Primary Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. &lt;a href=&quot;#&quot;&gt;Praesent libero&lt;/a&gt;. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Info Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing elit&lt;/a&gt;. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+
+&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Warning Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&quot;#&quot;&gt;Integer nec odio&lt;/a&gt;. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+
+&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Danger Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing&lt;/a&gt; elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
+
+&lt;p class=&quot;notice--success&quot;&gt;&lt;strong&gt;Success Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at &lt;a href=&quot;#&quot;&gt;nibh elementum&lt;/a&gt; imperdiet.&lt;/p&gt;
+
+&lt;p&gt;Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdownify&lt;/code&gt; is a good way to go.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% capture notice-2 %}
+#### New Site Features
+
+* You can now have cover images on blog pages
+* Drafts will now auto-save while writing
+{% endcapture %}
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ notice-2 | markdownify }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;notice&quot;&gt;
+  
+&lt;h4 id=&quot;new-site-features&quot;&gt;New Site Features&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can now have cover images on blog pages&lt;/li&gt;
+  &lt;li&gt;Drafts will now auto-save while writing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Or you could skip the capture and stick with straight HTML.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Message&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A basic message.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;notice&quot;&gt;
+  &lt;h4&gt;Message&lt;/h4&gt;
+  &lt;p&gt;A basic message.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Uzzal Hossain</name></author><category term="notice" /><category term="Post Formats" /><category term="notice" /><summary type="html">A notice displays information that explains nearby content. Often used to call attention to a particular detail.</summary></entry><entry><title type="html">Post: Quote</title><link href="https://www.uzzal.dev/blog/post-quote/" rel="alternate" type="text/html" title="Post: Quote" /><published>2010-02-05T00:00:00+06:00</published><updated>2010-02-05T00:00:00+06:00</updated><id>https://www.uzzal.dev/blog/post-quote</id><content type="html" xml:base="https://www.uzzal.dev/blog/post-quote/">&lt;blockquote&gt;
+  &lt;p&gt;Only one thing is impossible for God: To find any sense in any copyright law on the planet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;cite&gt;&lt;a href=&quot;http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html&quot;&gt;Mark Twain&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Uzzal Hossain</name></author><category term="paaaa" /><category term="Post Formats" /><category term="quote" /><summary type="html">Only one thing is impossible for God: To find any sense in any copyright law on the planet. Mark Twain</summary></entry></feed>
